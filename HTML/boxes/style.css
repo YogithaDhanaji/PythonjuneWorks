@@ -1,0 +1,19 @@
+.box{
+    width: 300px;
+    height: 200px;
+    border-width: 2px;
+    border-color: black;
+    border-style: ridge;
+    
+}
+
+.bg-succeess{
+    background-color: bisque;
+}
+
+.bg-warning{
+    background-color: burlywood;
+}
+.bg-danger{
+    background-color: beige;
+}

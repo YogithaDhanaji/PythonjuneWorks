@@ -1,0 +1,37 @@
+.parent{
+    width: 75%;
+    height: 400px;
+    border: 1px solid white;
+    background: rgb(178, 138, 215);
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+
+}
+
+.child{
+    width: auto;
+    height: auto;
+   background-color: blueviolet;
+   border: 1px solid white;
+
+}
+
+.parent > :nth-child(1){
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rebeccapurple;
+}
+
+.parent > :nth-child(4){
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

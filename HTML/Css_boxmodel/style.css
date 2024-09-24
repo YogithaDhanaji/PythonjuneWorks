@@ -1,0 +1,12 @@
+.first{
+    border: 2px solid red ;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.sec{
+    border: 2px solid rebeccapurple;
+    margin-right: 20px;
+    margin-top: 20px;
+}

@@ -1,0 +1,36 @@
+buitins.py      utility function
+==========      ----------------
+print()
+
+input()
+
+max()
+
+min()
+
+sorted()
+
+len()
+
+round()
+
+
+class str:
+
+    def capitalize():
+    def upper():
+    def lower():
+    def casefold():
+    def index(charater)
+    def isalfha():
+    def isdigit():
+    def isalnum():
+    def count(ch):
+    def endswich():
+    def startswich():
+    def split():
+    def replace("str,replacecharacter"):
+
+
+
+

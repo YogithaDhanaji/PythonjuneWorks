@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    box-sizing: border-box ;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(52, 64, 89);
+    box-sizing: border-box;
+}
+.parent{
+    width: 50% ;
+ 
+    min-height: 500px ;
+    background-color: rgb(100, 204, 100) ;
+
+}
+
+.parent>:nth-child(1){
+    width: 50%;
+    height: 100px;
+    background-color:aqua ;
+}
+
+.parent>:nth-child(2){
+    width: 75%;
+    height: 100px;
+    background-color: rgb(147, 219, 219);
+}
+
+.parent>:nth-child(3){
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(63, 166, 166);
+}
+
+.parent>:nth-child(4){
+    width: 50vw;
+    height: 100px;
+    background-color: rgb(33, 138, 138);
+
+}
+
+.parent>:nth-child(5){
+    width: 40%;
+    height: 100px;
+    background-color: rgb(45, 137, 137);
+    
+}
+

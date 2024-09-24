@@ -1,0 +1,41 @@
+.border{
+    border: 1px solid black;
+
+}
+
+.body {
+    height: 400vh;
+    width: 200vw;
+}
+.parent{
+    width: 50%;
+    height: 350px;
+
+    background-color: violet; 
+
+}
+
+.child1{
+    width:50% ;
+    height: 100px;
+    background-color: brown;
+}
+
+.child2{
+    width: 75%;
+    height: 100px;
+    background-color: chartreuse;
+}
+
+.child3{
+    width: 50vw;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.child4{
+    width: 50%;
+    height: 100px;
+    background-color: aqua;
+
+}

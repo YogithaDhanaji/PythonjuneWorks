@@ -1,0 +1,35 @@
+.parent{
+    width: 80%;
+    height: 500px;
+    background-color: cornflowerblue;
+    border: 1px solid blueviolet;
+    display: grid;
+
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+
+}
+
+.child{
+
+    background-color: rgb(99, 99, 218);
+    border: 3px solid white;
+
+}
+
+/* .parent > :nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* width: 100%;
+    height: 100px; */
+
+/* } */
+
+/* .parent > :nth-child(5){
+    grid-column-start: 1;
+    grid-column-end: 4;
+} */
+
+.header,.footer{
+    grid-column: 1/4;
+}
